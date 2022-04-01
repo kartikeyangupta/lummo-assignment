@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  lummo-application:
+    build: .
+    container_name: lummo
+    restart: always
+    ports:
+      - "6000:6000"
