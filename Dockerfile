@@ -1,8 +1,8 @@
 FROM python:3.8
 
-RUN apt-get update
+RUN apt-get update -y
 
-RUN apt-get install vim
+RUN apt-get install -y vim
 
 ADD ./application /src/project/
 
